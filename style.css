@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main-img{
+	
+	
+}
+
+.main-section{
+	background-image: url('img/pic1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+}
+
+.search-pad{
+	text-align: center;
+}
+
+.w-app{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.searchForm-input{
+	background-color: rgba(77, 77, 77, 0.4);
+	border-radius: 40px;
+	color: white;
+	padding: 4px;
+}
+
+.searchForm-input:focus , .searchForm-input:active{
+	outline: none;
+}
+
+.sub-btn{
+	background-color: #006400;
+	outline: none;
+	border: none;
+	color: white;
+	padding: 4px;
+	border-radius: 40px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.sub-btn:focus, .sub-btn:active{
+	outline: none;
+}
+
+.location-timezone{
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+}
+
+.echo{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.com{
+	text-align: center;
+	color: white;
+	padding: 20px;
+	margin: 2px;
+}
+
+.data{
+	margin-top: 40px;
+}
+
+.com-m{
+	text-align: center;
+	padding: 6px;
+	margin-left: 6px;
+}
+
+.temperature-description{
+	margin-top: 16px;
+}
+
+.max-temp1{
+	margin-top: 16px;
+}
+
+.wind-speed{
+	margin-top: 16px;
+}
+
+.humidity{
+	margin-top: 16px;
+}
+
+/* section two starts */
+
+.two{
+	width: 100%;
+	height: 300%;
+	background-color: #124751;
+}
+
+/* 
+#2F6079;
+
+
+*/
+
+.thead-dark{
+	background-color: #08171B !important;
+	color: white !important;
+}
+
+.table{
+	margin-top: 40px;
+}
+
+
+#result3 li{
+	list-style-type: none;
+	color: white;
+}
+
+#result2 li{
+	list-style-type: none;
+	color: white;
+}
+
+#result1 li{
+	list-style-type: none;
+	color: white;
+}
+
+#result2{
+	text-align: center;
+}
+
+.time-cen{
+	text-align: center;
+	color: white;
+	background-color: #08171B;
+	padding: 10px;
+}
+
+.main-data{
+	padding-top: 40px;
+}
+
+.week li{
+	list-style-type: none;
+	color:white;
+}
+
+#dailylow li{
+	list-style-type: none;
+	color:white;
+}
+
+
+
+#dailyhigh li{
+	list-style-type: none;
+	color:white;
+}
+
+#dailyhum li{
+	list-style-type: none;
+	color:white;
+}
+
+
+

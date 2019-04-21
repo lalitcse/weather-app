@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section class="main-section">
+		<div class="row justify-content-center ">
+			<div class="col-10 col-sm-6">
+				<h4 class="w-app">Weather App</h4>
+		<form class="searchForm" method="POST">
+			<div class="form-div search-pad">
+				<input type="text" class="searchForm-input" id="loaction" placeholder="Search Location">
+				<button class="sub-btn" type="submit">Search</button>
+			</div>
+		</form>
+		<div class="location">
+				<h4 class="location-timezone">Timezone</h4>
+				<div class="echo">--</div>
+				</div>
+	</div>
+	</div>
+	<div class="row justify-content-center data">
+		<div class="col-10 col-md-2 com" style="border: 1px solid black">
+			<span>Temperature <img src="img/temperature.png" alt="Temperature-image" width="30px;"> </span>
+			<h2 class="temperature-degree">34</h2>
+			<span><h4>F</h4></span>
+    	</div>
+		<div class="col-10 col-md-2 com" style="border: 1px solid black">
+				<span>Min-Temp<img src="img/cold.png" alt="Min-Temp-image" width="30px;" style="margin-left:10px;"></span>
+				<h4 class="temp-min">23.0</h4>
+				<span class="max-temp1">Max-Temp<img src="img/max.png" alt="Max-Temp-image" width="30px; " style="margin-left:10px;"></span>
+				<h4 class="temp-max">45.32</h4>
+		</div>
+		<div class="col-10 col-md-2 com " style="border: 1px solid black">
+
+				<span>Description<img src="img/weather.png" alt="Description-image" width="30px; " style="margin-left:10px;"></span>
+    					<h4 class="temperature-description">It is hot now!</h4>
+					
+		</div>
+		<div class="col-10 col-md-2 com" style="border: 1px solid black">
+			<span>Wind speed<img src="img/eolic.png" alt="Wind-speed-image" width="30px;"style="margin-left:10px;"></span>
+				<h3 class="wind-speed">16</h3>
+				<span>mph</span>
+		</div>
+		<div class="col-10 col-md-2 com" style="border: 1px solid black">
+			<span>Humidity<img src="img/humidity.png" alt="Humidity-image" width="30px; " style="margin-left:10px;"></span>
+				<h3 class="humidity">23</h3>
+				<span>%</span>
+		</div>
+
+	</div>
+	</section>
+
+	<section class="two">
+		<div class="row justify-content-center main-data">
+			<div class="col-sm-2" id="slideContainer">
+					
+						  <h4 class="time-cen"><span >Time ( hourly )</span></h4>
+						  
+						  <ul id="result2"></ul>
+						  
+			</div>
+			<div class="col-sm-2">
+				<h4 class="time-cen"><span>Temperature</span></h4>
+					
+					<ul id="result1"></ul>
+			</div>
+			<div class="col-sm-2">
+				<h4 class="time-cen"><span>Humidity %</span></h4>
+					
+					<ul id="result3"></ul>
+			</div>
+		</div>
+		<div class="row justify-content-center main-data">
+				<div class="col-sm-2" id="slideContainer">
+						
+							  <h4 class="time-cen"><span >Week days</span></h4>
+							  
+							  <ul class="week">
+								  <li>Sunday</li>
+								  <li>Monday</li>
+								  <li>Tuesday</li>
+								  <li>Wednesday</li>
+								  <li>Thursday</li>
+								  <li>Friday</li>
+								  <li>Saturday</li>
+								  <li>Sunday</li>
+							  </ul>
+							  
+				</div>
+				<div class="col-sm-3">
+						<h4 class="time-cen"><span>Low Temperature</span></h4>
+							
+							<ul id="dailylow"></ul>
+					</div>
+				<div class="col-sm-3">
+					<h4 class="time-cen"><span>High Temperature</span></h4>
+						
+						<ul id="dailyhigh"></ul>
+				</div>
+				
+				<div class="col-sm-2">
+					<h4 class="time-cen"><span>Humidity %</span></h4>
+						
+						<ul id="dailyhum"></ul>
+				</div>
+			</div>
+		
+	</section>
+    
+    
+
+<!-- <div class="temperature">
+<div class="degree-section">
+    
+  
+</div> -->
+        
+    <script  src="main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
